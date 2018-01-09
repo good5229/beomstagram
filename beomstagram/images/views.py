@@ -25,7 +25,7 @@ class ListAllComments(APIView):
         return Response(data=serializer.data)
 
 
-class ListAlllikes(APIView):
+class ListAllLikes(APIView):
 
     def get(self, request, format=None):
 
@@ -36,4 +36,3 @@ class ListAlllikes(APIView):
         return Response(data=serializer.data)
 
 
-    
