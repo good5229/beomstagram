@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2a45ab79619209c2c505f921a59b600dab627e172a23e77de781b96a435cf268"
+            "sha256": "dd0ee7a328695192015c6307a8c058f80d7f60e1644d4fb310a6480af0ad7f51"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -214,6 +214,18 @@
             ],
             "version": "==0.34.0"
         },
+        "django-appconf": {
+            "hashes": [
+                "sha256:ddab987d14b26731352c01ee69c090a4ebfc9141ed223bef039d79587f22acd9",
+                "sha256:6a4d9aea683b4c224d97ab8ee11ad2d29a37072c0c6c509896dd9857466fb261"
+            ],
+            "version": "==1.0.2"
+        },
+        "django-connected": {
+            "editable": true,
+            "git": "https://github.com/mishbahr/django-connected.git",
+            "ref": "7ec1f042786fef2eb6c00b1479ce47c90341ba81"
+        },
         "django-coverage-plugin": {
             "hashes": [
                 "sha256:84b247a39885e59fa018b6b9ba07b034d2cb7df68c6ef372b2df90fe29272d69"
@@ -343,6 +355,13 @@
                 "sha256:f84be1bb0040caca4cea721fcbbbbd61f9be9464ca236387158b0feea01914a4"
             ],
             "version": "==2.10"
+        },
+        "jsonfield": {
+            "hashes": [
+                "sha256:a0a7fdee736ff049059409752b045281a225610fecbda9b9bd588ba976493c12",
+                "sha256:beb1cd4850d6d6351c32daefcb826c01757744e9c863228a642f87a1a4acb834"
+            ],
+            "version": "==2.0.2"
         },
         "markupsafe": {
             "hashes": [
