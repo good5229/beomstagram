@@ -33,6 +33,7 @@ pytest-sugar = "==0.9.0"
 djangorestframework = "*"
 django-connected = {git = "https://github.com/mishbahr/django-connected.git", editable = true}
 python-xbrl = "*"
+django-taggit = "*"
 
 
 [dev-packages]
