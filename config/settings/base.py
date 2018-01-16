@@ -57,7 +57,8 @@ LOCAL_APPS = [
     # custom users app
     'beomstagram.users.apps.UsersConfig',
     # Your stuff: custom apps go here
-    'beomstagram.images.apps.ImagesConfig',
+    'beomstagram.images.apps.ImagesConfig', # images app
+    'beomstagram.notifications.apps.NotificationsConfig', # notification app
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
