@@ -23,6 +23,12 @@ class Feed(APIView):
                 
                 image_list.append(image)
 
+        my_images = user.images.all()
+
+        for image in my_images:
+            
+            image_list.append(image)[:2]
+
         sorted_list = sorted(
             image_list, key=lambda image: image.created_at, reverse=True)
 
