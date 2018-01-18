@@ -34,6 +34,7 @@ djangorestframework = "*"
 django-connected = {git = "https://github.com/mishbahr/django-connected.git", editable = true}
 python-xbrl = "*"
 django-taggit = "*"
+djangorestframework-jwt = "*"
 
 
 [dev-packages]
