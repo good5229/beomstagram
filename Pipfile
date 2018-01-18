@@ -36,6 +36,7 @@ python-xbrl = "*"
 django-taggit = "*"
 djangorestframework-jwt = "*"
 django-taggit-serializer = "*"
+django-rest-auth = "*"
 
 
 [dev-packages]
