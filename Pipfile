@@ -35,6 +35,7 @@ django-connected = {git = "https://github.com/mishbahr/django-connected.git", ed
 python-xbrl = "*"
 django-taggit = "*"
 djangorestframework-jwt = "*"
+django-taggit-serializer = "*"
 
 
 [dev-packages]
